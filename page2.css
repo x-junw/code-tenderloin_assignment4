@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #000000;
+    grid-gap: 10px;
+    height: 500px;
+}
+
+.item {
+    background-color: #FFFFFF;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lexend', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#item1 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjDU7rHwOFP1FLIolsvH7wGW3c2Je2NxkOBmx2yv_YWw&s=10");
+}
+
+#item10 {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    background-image: url("https://www.guggenheim.org/wp-content/uploads/1916/01/49.1229_ph_web-1.jpg");
+}
+
+#item12 {
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-image: url("https://www.phillipscollection.org/sites/default/files/styles/feature_extra_large_no_crop_1200_/public/2026-01/1374w.jpg?itok=F_gcjAWp");
+}
+
+#item14 {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCVmEwv1NeZtQqFeVAYXBq6o3ImZ8xVOTITrJa28bFECRB8833htcOEbw&s=10");
+}
+
+#item7 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    background-image: url("https://uploads8.wikiart.org/images/piet-mondrian/composition-with-gray-and-light-brown-1918.jpg!PinterestSmall.jpg");
+}
+
+#item8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tableau_I%2C_by_Piet_Mondriaan.jpg/250px-Tableau_I%2C_by_Piet_Mondriaan.jpg");
+}
